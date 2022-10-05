@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/SAP_ABAP.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title> ABAPmatic </title>
+    <style>
+        body {
+            background-color: bisque;
+            display: flex;
+            flex-direction: column;
+            height: calc(100vh - 3rem);
+            margin: 20px;
+            font-family: 'Ubuntu', sans-serif;
+
+        }
+
+        .btnABAP {
+            display: block;
+            align-items: center;
+            background-color: violet;
+            width: 100%;
+            height: 2.7rem;
+            border: 1px solid;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            font-size: 1.8rem;
+            text-shadow: gray 3px 3px 3px;
+            box-shadow: rgb(75, 58, 75) 2px 2px 2px;
+
+        }
+
+        .displayDataABAP {
+            position: relative;
+            flex: 1;
+            border: 1px solid gray;
+            border-radius: 5px;
+            padding: 5px;
+            min-height: 25rem;
+        }
+
+        .textarea {
+            width: 98%;
+            height: 90%;
+        }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: .2;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="btnABAP">ABAPmatic</button>
+    <section class="displayDataABAP">
+        <img src="./assets/sql_logo.png" alt="database">
+        <ul>
+            <li>Burada ABAP programlama dilinin temel yapıları ile ilgili bilgiler göreceksiniz.</li><br>
+            <li>Textarea geldiğinde aklında kalanı yazmaya çalışırsan daha iyi öğreneceksin. </li><br>
+            <li>Rastgele bilgi için butona
+                basabilirsiniz.</li><br>
+        </ul>
+
+    </section>
+
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
